@@ -984,8 +984,8 @@ importers:
         specifier: ^2.1.1
         version: 2.1.1
       lru-cache:
-        specifier: ^7.18.3
-        version: 7.18.3
+        specifier: ^10.2.2
+        version: 10.2.2
       react:
         specifier: ^17.0.0 || ^18.0.0
         version: 18.2.0
@@ -4185,7 +4185,7 @@ packages:
       agent-base: 7.1.0
       http-proxy-agent: 7.0.2
       https-proxy-agent: 7.0.4
-      lru-cache: 10.2.0
+      lru-cache: 10.2.2
       socks-proxy-agent: 8.0.2
     transitivePeerDependencies:
       - supports-color
@@ -4203,7 +4203,7 @@ packages:
     engines: {node: ^16.14.0 || >=18.0.0}
     dependencies:
       '@npmcli/promise-spawn': 7.0.1
-      lru-cache: 10.2.0
+      lru-cache: 10.2.2
       npm-pick-manifest: 9.0.0
       proc-log: 3.0.0
       promise-inflight: 1.0.1
@@ -5484,7 +5484,7 @@ packages:
     resolution: {integrity: sha512-nEpVRPWW9EBmx2SCfNn3ClYxPL7IktPX12HhIoSc/H5mMjdeW3+YsXIpseLQ2xF35+OcpwKQbEUw5VtqE4PDNA==}
     deprecated: This is a stub types definition. lru-cache provides its own type definitions, so you do not need this installed.
     dependencies:
-      lru-cache: 7.18.3
+      lru-cache: 10.2.2
     dev: true
 
   /@types/luxon@3.4.2:
@@ -7042,7 +7042,7 @@ packages:
       '@npmcli/fs': 3.1.0
       fs-minipass: 3.0.3
       glob: 10.3.10
-      lru-cache: 10.2.0
+      lru-cache: 10.2.2
       minipass: 7.0.4
       minipass-collect: 2.0.1
       minipass-flush: 1.0.5
@@ -10357,7 +10357,7 @@ packages:
     resolution: {integrity: sha512-+K84LB1DYwMHoHSgaOY/Jfhw3ucPmSET5v98Ke/HdNSw4a0UktWzyW1mjhjpuxxTqOOsfWT/7iVshHmVZ4IpOA==}
     engines: {node: ^16.14.0 || >=18.0.0}
     dependencies:
-      lru-cache: 10.2.0
+      lru-cache: 10.2.2
     dev: true
 
   /html-element-map@1.3.1:
@@ -12106,8 +12106,8 @@ packages:
       tslib: 2.6.2
     dev: true
 
-  /lru-cache@10.2.0:
-    resolution: {integrity: sha512-2bIM8x+VAf6JT4bKAljS1qUWgMsqZRPGJS6FSahIMPVvctcNhyVp7AJu7quxOW9jwkryBReKZY5tY5JYv2n/7Q==}
+  /lru-cache@10.2.2:
+    resolution: {integrity: sha512-9hp3Vp2/hFQUiIwKo8XCeFVnrg8Pk3TYNPIR7tJADKi5YfcF7vEaK7avFHTlSy3kOKYaJQaalfEo6YuXdceBOQ==}
     engines: {node: 14 || >=16.14}
 
   /lru-cache@4.1.5:
@@ -12132,6 +12132,7 @@ packages:
   /lru-cache@7.18.3:
     resolution: {integrity: sha512-jumlc0BIUrS3qJGgIkWZsyfAM7NCWiBcCDhnd+3NNM5KbBmLTgHVfWBcg6W+rLUsIpzpERPsvwUP7CckAQSOoA==}
     engines: {node: '>=12'}
+    dev: true
 
   /luxon@3.4.4:
     resolution: {integrity: sha512-zobTr7akeGHnv7eBOXcRgMeCP6+uyYsczwmeRCauvpvaAltgNyTbLH/+VaEAPUeWBT+1GuNmz4wC/6jtQzbbVA==}
@@ -13832,7 +13833,7 @@ packages:
     resolution: {integrity: sha512-MkhCqzzBEpPvxxQ71Md0b1Kk51W01lrYvlMzSUaIzNsODdd7mqhiimSZlr+VegAz5Z6Vzt9Xg2ttE//XBhH3EQ==}
     engines: {node: '>=16 || 14 >=14.17'}
     dependencies:
-      lru-cache: 10.2.0
+      lru-cache: 10.2.2
       minipass: 7.0.4
 
   /path-to-regexp@0.1.7:
